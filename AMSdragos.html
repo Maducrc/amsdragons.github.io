@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Copyright no Final da Página</title>
+<style>
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #Eedec9; /* Cor de fundo igual à da imagem */
+    font-family: Arial, sans-serif;
+  }
+
+  .container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .imagem {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    z-index: 0;
+  }
+
+  .imagem img {
+    height: 100%;
+    width: auto;
+  }
+
+  .content {
+    position: relative;
+    z-index: 1;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0); /* Fundo transparente */
+    max-width: 60%;
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fcf4e7;
+    padding: 0.5px;
+    text-align: center;
+    z-index: 3;
+  }
+
+  #titulo {
+    color: #af3d10;
+  }
+
+  #sub {
+    font-weight: bolder;
+  }
+
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="imagem">
+    <img src="./dragao.png" alt="Dragão" />
+  </div>
+
+  <div class="content">
+    <h1 id="titulo">MIT License</h1>
+    <p id="sub">Copyright (c) 2025 AMSDragons</p>
+      
+      <p>Permission is hereby granted, free of charge, to any person obtaining a copy
+      of this software and associated documentation files (the "Software"), to deal
+      in the Software without restriction, including without limitation the rights
+      to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+      copies of the Software, and to permit persons to whom the Software is
+      furnished to do so, subject to the following conditions:</p>
+      
+      <p>The above copyright notice and this permission notice shall be included in all
+      copies or substantial portions of the Software.</p>
+      
+      <p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+      IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+      FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+      AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+      LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+      OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+      SOFTWARE.</p>
+  </div>
+
+  <footer class="footer">
+    <p>&copy; 2025. AMS Dragons.</p>
+  </footer>
+</div>
+
+</body>
+</html>
